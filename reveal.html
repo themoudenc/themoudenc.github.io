@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page statique Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class=" text-gray-800 font-sans max-w-7xl mx-auto bg-[#222222] ibg-gray-900">
+    <!-- Navbar -->
+    <nav class="bg-[#3B3888] text-white px-6 py-4 flex justify-between items-center">
+      <div class="text-2xl font-bold">Printemps à la Prairie des Filtres</div>
+      <ul class="flex space-x-6">
+        <li>
+          <a href="#accueil" class="hover:text-white">ANV Toulouse</a>
+        </li>
+        <li>
+          <a href="#services" class="hover:text-white">XR Toulouse</a>
+        </li>
+        <li>
+          <a href="https://printempsdeslutteslocales.noblogs.org/" class="hover:text-white">Printemps des Luttes</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Hero Section -->
+    <section id="accueil" class="relative bg-[#F7428E] text-white py-20 px-6 text-center">
+      <!-- Image de fond -->
+      <div class="absolute inset-0">
+        <img src="./assets_reveal/hero.JPG" alt="Hero background" class="w-full h-full object-cover">
+        <!-- Overlay rose -->
+        <div class="absolute inset-0 bg-black opacity-70"></div>
+      </div>
+      <!-- Contenu par-dessus -->
+      <div class="relative z-10">
+        <h1 class="text-5xl font-bold mb-6">Contre l'artificialisation des sols !</h1>
+        <p class="text-xl mb-8">Le faux projet immobilier a été inventé pour attirer l'attention des Toulousains sur la question de la bétonisation des sol. En effet, si la prairie des Filtres est pour le moment préservée, ce n'est pas le cas de certaines zones naturelles autour de Toulouse !</p>
+        <!--<button class="px-6 py-3 bg-white text-[#F7428E] font-semibold md:rounded-lg shadow-lg">
+      Call to Action
+    </button>-->
+      </div>
+    </section>
+    <!-- Alternating Content -->
+    <section id="services" class="py-16 px-6 space-y-16">
+      <!-- Bloc 1 -->
+      <div class="flex flex-col md:flex-row items-center md:space-x-8">
+        <img src="https://via.placeholder.com/400x250" alt="Image 1" class="md:rounded-lg shadow-lg md:w-1/2">
+        <div class="mt-6 md:mt-0 md:w-1/2">
+          <h2 class="text-3xl font-semibold mb-4 decoration-[#3B3888]  underline decoration-4 text-gray-100">ZAC du Rivel</h2>
+          <p class="text-gray-200"> Description du premier service. Le texte est placé à côté de l’image pour une mise en page alternée. </p>
+        </div>
+      </div>
+      <!-- Bloc 2 -->
+      <div class="flex flex-col md:flex-row-reverse items-center md:space-x-8">
+        <img src="https://via.placeholder.com/400x250" alt="Image 2" class="md:rounded-lg shadow-lg md:w-1/2">
+        <div class="mt-6 md:mt-0 md:w-1/2">
+          <h2 class="text-3xl font-semibold mb-4 decoration-[#F7428E] underline decoration-4 text-gray-100">Poumon des Cepheides</h2>
+          <p class="text-gray-200"> Description du deuxième service. Ici l’image est inversée pour créer un effet alterné. </p>
+        </div>
+      </div>
+      <!-- Bloc 3 -->
+      <div class="flex flex-col md:flex-row items-center md:space-x-8">
+        <img src="https://via.placeholder.com/400x250" alt="Image 3" class="md:rounded-lg shadow-lg md:w-1/2">
+        <div class="mt-6 md:mt-0 md:w-1/2">
+          <h2 class="text-3xl font-semibold mb-4 decoration-[#FFD83E] underline decoration-4 text-gray-100">Projet des Pradettes</h2>
+          <p class="text-gray-200"> Troisième bloc avec texte et image côte à côte, reprenant le schéma alterné. </p>
+        </div>
+      </div>
+    </section>
+    <!-- Section avec liste -->
+    <!-- Section avec liste stylisée -->
+    <section id="features" class="relative py-16 px-6 text-gray-800">
+      <!-- Image de fond -->
+      <div class="absolute inset-0">
+        <img src="./assets_reveal/hourra.JPG" alt="Background image" class="w-full h-full object-cover">
+        <!-- Overlay jaune -->
+        <div class="absolute inset-0 bg-[#F7428E] opacity-60"></div>
+      </div>
+      <!-- Contenu -->
+      <div class="relative z-10 max-w-4xl mx-auto text-center ">
+        <h2 class="text-4xl font-bold text-gray-800">L'artificialisation des sols</h2>
+      </div>
+    </section>
+
+    <p class="md:my-8 md:mx-10 my-4 mx-2 first-letter:text-7xl first-letter:font-bold first-letter:text-pink-500 first-letter:mr-3 first-letter:float-left text-gray-200">
+  Il était une fois, dans un royaume lointain, un scribe qui utilisait Tailwind CSS pour
+  illuminer ses textes numériques. La lettrine attire l'œil et donne immédiatement un
+  cachet historique à n'importe quel bloc de texte.Il était une fois, dans un royaume lointain, un scribe qui utilisait Tailwind CSS pour
+  illuminer ses textes numériques. La lettrine attire l'œil et donne immédiatement un
+  cachet historique à n'importe quel bloc de texte.Il était une fois, dans un royaume lointain, un scribe qui utilisait Tailwind CSS pour
+  illuminer ses textes numériques. La lettrine attire l'œil et donne immédiatement un
+  cachet historique à n'importe quel bloc de texte.
+</p>
+    <section id="features" class="relative py-16 px-6 text-gray-800">
+      <!-- Image de fond -->
+      <div class="absolute inset-0">
+        <img src="./assets_reveal/hourra.JPG" alt="Background image" class="w-full h-full object-cover">
+        <!-- Overlay jaune -->
+        <div class="absolute inset-0 bg-[#FFD83E] opacity-60"></div>
+      </div>
+      <!-- Contenu -->
+      <div class="relative z-10 max-w-4xl mx-auto text-center mb-12">
+        <h2 class="text-4xl font-bold text-gray-800">Le printemps des Luttes</h2>
+        <p class="mt-4 text-lg text-gray-800"> Cette action s'inscrit dans le cadre du printemps des luttes, une initiative pour dénoncer l'artificialisation toujours plus injustifiée du territoire français. Ce phénomène provoque en effet plusieurs conséquences, directes ou non, sur la santé de tous et l'environnement. </p>
+      </div>
+    </section>
+    <div class="grid grid-cols-3">
+      <div class=" col-span-3">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-6  py-6 md:rounded-lg ">
+          <!--<div class="group relative md:rounded-lg focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 flex p-6 border-2 border-solid border-[#FFD83E]">
+												<!-- Image de fond
+  <div class="absolute inset-0"><div class="absolute inset-0 bg-[#FFD83E] opacity-60 border-2 border-solid border-[#FFD83E]"></div></div><div class="relative z-10 flex"><div><span class="inline-flex rounded-lg p-3 bg-yellow-50 text-yellow-700"><svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75..." /></svg></span></div><div class="ml-4"><h3 class="text-pink-900 text-xl text-base font-semibold leading-6 "><span class="  absolute inset-0" aria-hidden="true"></span>
+          Benefits
+
+      </h3><p class="font-semibold mt-2 text-sm text-gray-900">
+        Sit repellendus qui ut at blanditiis et quo et molestiae.
+      </p></div></div></div>-->
+          <!-- Item 2 -->
+          <div class="group relative md:rounded-lg focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 flex p-6">
+            <!-- Image de fond -->
+            <div class="absolute inset-0">
+              <img src="./assets_reveal/g5.jpeg" alt="Background" class="w-full h-full object-cover md:rounded-lg">
+              <!-- Overlay jaune -->
+              <div class="absolute inset-0 bg-gray-900 opacity-60 md:rounded-lg"></div>
+            </div>
+            <!-- Contenu -->
+            <div class="relative z-10 flex">
+              <div>
+                <span class="inline-flex rounded-lg p-3 bg-gray-50 text-gray-700">
+                  <!-- Icône -->
+                  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75..." />
+                  </svg>
+                </span>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-xl text-base font-semibold leading-6 text-gray-100">
+                  <span class="  absolute inset-0" aria-hidden="true"></span> Benefits
+                </h3>
+                <p class="font-semibold mt-2 text-sm text-gray-200"> Sit repellendus qui ut at blanditiis et quo et molestiae. </p>
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="group relative md:rounded-lg focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 flex p-6">
+            <!-- Image de fond -->
+            <div class="absolute inset-0">
+              <img src="./assets_reveal/g1.jpeg" alt="Background" class="w-full h-full object-cover md:rounded-lg">
+              <!-- Overlay jaune -->
+              <div class="absolute inset-0 bg-[#FFD83E] opacity-60 md:rounded-lg"></div>
+            </div>
+            <!-- Contenu -->
+            <div class="relative z-10 flex">
+              <div>
+                <span class="inline-flex rounded-lg p-3 bg-yellow-50 text-yellow-700">
+                  <!-- Icône -->
+                  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75..." />
+                  </svg>
+                </span>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-xl text-base font-semibold leading-6 text-gray-900">
+                  <span class="  absolute inset-0" aria-hidden="true"></span> Benefits
+                </h3>
+                <p class="font-semibold mt-2 text-sm text-gray-800"> Sit repellendus qui ut at blanditiis et quo et molestiae. </p>
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="group relative md:rounded-lg focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 flex p-6">
+            <!-- Image de fond -->
+            <div class="absolute inset-0">
+              <img src="./assets_reveal/g6.jpg" alt="Background" class="w-full h-full object-cover md:rounded-lg">
+              <!-- Overlay jaune -->
+              <div class="absolute inset-0 bg-[#F7428E] opacity-60 md:rounded-lg"></div>
+            </div>
+            <!-- Contenu -->
+            <div class="relative z-10 flex">
+              <div>
+                <span class="inline-flex rounded-lg p-3 bg-pink-50 text-pink-700">
+                  <!-- Icône -->
+                  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75..." />
+                  </svg>
+                </span>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-xl text-base font-semibold leading-6 text-gray-900">
+                  <span class="  absolute inset-0" aria-hidden="true"></span> Benefits
+                </h3>
+                <p class="font-semibold mt-2 text-sm text-gray-800"> Sit repellendus qui ut at blanditiis et quo et molestiae. </p>
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="group relative md:rounded-lg focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 flex p-6">
+            <!-- Image de fond -->
+            <div class="absolute inset-0">
+              <img src="./assets_reveal/g3.jpg" alt="Background" class="w-full h-full object-cover md:rounded-lg">
+              <!-- Overlay jaune -->
+              <div class="absolute inset-0 bg-[#3B3888] opacity-60 md:rounded-lg"></div>
+            </div>
+            <!-- Contenu -->
+            <div class="relative z-10 flex">
+              <div>
+                <span class="inline-flex rounded-lg p-3 bg-purple-50 text-purple-700">
+                  <!-- Icône -->
+                  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75..." />
+                  </svg>
+                </span>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-xl text-base font-semibold leading-6 text-gray-100">
+                  <span class="  absolute inset-0" aria-hidden="true"></span> Benefits
+                </h3>
+                <p class="font-semibold mt-2 text-sm text-gray-200"> Sit repellendus qui ut at blanditiis et quo et molestiae. </p>
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="group relative md:rounded-lg focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 flex p-6">
+            <!-- Image de fond -->
+            <div class="absolute inset-0">
+              <img src="./assets_reveal/g5.jpeg" alt="Background" class="w-full h-full object-cover md:rounded-lg">
+              <!-- Overlay jaune -->
+              <div class="absolute inset-0 bg-gray-900 opacity-60 md:rounded-lg"></div>
+            </div>
+            <!-- Contenu -->
+            <div class="relative z-10 flex">
+              <div>
+                <span class="inline-flex rounded-lg p-3 bg-gray-50 text-gray-700">
+                  <!-- Icône -->
+                  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75..." />
+                  </svg>
+                </span>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-xl text-base font-semibold leading-6 text-gray-100">
+                  <span class="  absolute inset-0" aria-hidden="true"></span> Benefits
+                </h3>
+                <p class="font-semibold mt-2 text-sm text-gray-200"> Sit repellendus qui ut at blanditiis et quo et molestiae. </p>
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="group relative md:rounded-lg focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 flex p-6">
+            <!-- Image de fond -->
+            <div class="absolute inset-0">
+              <img src="./assets_reveal/g4.jpg" alt="Background" class="w-full h-full object-cover md:rounded-lg">
+              <!-- Overlay jaune -->
+              <div class="absolute inset-0 bg-gray-900 opacity-60 md:rounded-lg"></div>
+            </div>
+            <!-- Contenu -->
+            <div class="relative z-10 flex">
+              <div>
+                <span class="inline-flex rounded-lg p-3 bg-gray-50 text-gray-700">
+                  <!-- Icône -->
+                  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75..." />
+                  </svg>
+                </span>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-xl text-base font-semibold leading-6 text-gray-100">
+                  <span class="  absolute inset-0" aria-hidden="true"></span> Benefits
+                </h3>
+                <p class="font-semibold mt-2 text-sm text-gray-200"> Sit repellendus qui ut at blanditiis et quo et molestiae. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <!--<img src="./assets_reveal/pdl.png" alt="Image 3" class="md:rounded-lg shadow-lg h-128">-->
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer id="contact" class="bg-[#3B3888] p-6 text-center text-white">
+      <p>Sous license CC0 - Domaine Public / XR Toulouse / ANV Toulouse</p>
+    </footer>
+  </body>
+</html>
