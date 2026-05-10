@@ -127,6 +127,13 @@
     font-size: 1.8rem;
     line-height: 1.4
   }
+    .FieldRte_root__b1GSrr {
+    --wysiwyg-bullet-char: "";
+    --wysiwyg-bullet-color: #0fa669;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.4
+  }
 
   .FieldRte_root__b1GSr:not(.FieldRte_inline__guAqS)>* {
     margin-top: 2.4rem
